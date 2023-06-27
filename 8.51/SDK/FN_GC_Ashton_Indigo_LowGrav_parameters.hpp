@@ -1,0 +1,49 @@
+#pragma once
+
+// Fortnite (8.51) SDK
+// Dumped with <3 by android#1337
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+#include "../SDK.hpp"
+
+namespace SDK
+{
+//---------------------------------------------------------------------------
+//Parameters
+//---------------------------------------------------------------------------
+
+// Function GC_Ashton_Indigo_LowGrav.GC_Ashton_Indigo_LowGrav_C.OnLoopingStart
+struct AGC_Ashton_Indigo_LowGrav_C_OnLoopingStart_Params
+{
+	class AActor*                                      MyTarget;                                                 // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	struct FGameplayCueParameters                      Parameters;                                               // (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm)
+	TArray<class UParticleSystemComponent*>            ParticleComponents;                                       // (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ZeroConstructor, ReferenceParm)
+	TArray<class UAudioComponent*>                     AudioComponents;                                          // (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ZeroConstructor, ReferenceParm)
+};
+
+// Function GC_Ashton_Indigo_LowGrav.GC_Ashton_Indigo_LowGrav_C.Activation
+struct AGC_Ashton_Indigo_LowGrav_C_Activation_Params
+{
+	class AActor*                                      My_Target;                                                // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function GC_Ashton_Indigo_LowGrav.GC_Ashton_Indigo_LowGrav_C.ReceiveTick
+struct AGC_Ashton_Indigo_LowGrav_C_ReceiveTick_Params
+{
+	float                                              DeltaSeconds;                                             // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function GC_Ashton_Indigo_LowGrav.GC_Ashton_Indigo_LowGrav_C.ExecuteUbergraph_GC_Ashton_Indigo_LowGrav
+struct AGC_Ashton_Indigo_LowGrav_C_ExecuteUbergraph_GC_Ashton_Indigo_LowGrav_Params
+{
+	int                                                EntryPoint;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif
