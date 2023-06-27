@@ -1,0 +1,784 @@
+// Fortnite (14.30) SDK
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+#include "../SDK.hpp"
+
+namespace SDK
+{
+//---------------------------------------------------------------------------
+//Functions
+//---------------------------------------------------------------------------
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateGameStartCountdown
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::UpdateGameStartCountdown()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateGameStartCountdown");
+
+	AMinigameSettingsMachine_C_UpdateGameStartCountdown_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.AdditionalUIExtensionValidityChecks
+// (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// struct FGameplayTagContainer   TagContainer                   (BlueprintVisible, BlueprintReadOnly, Parm)
+// bool                           bUIExtensionIsValid            (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+
+void AMinigameSettingsMachine_C::AdditionalUIExtensionValidityChecks(const struct FGameplayTagContainer& TagContainer, bool* bUIExtensionIsValid)
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.AdditionalUIExtensionValidityChecks");
+
+	AMinigameSettingsMachine_C_AdditionalUIExtensionValidityChecks_Params params;
+	params.TagContainer = TagContainer;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	if (bUIExtensionIsValid != nullptr)
+		*bUIExtensionIsValid = params.bUIExtensionIsValid;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.GetTeamSetting
+// (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent, Const)
+// Parameters:
+// int                            ReturnValue                    (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
+
+int AMinigameSettingsMachine_C::GetTeamSetting()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.GetTeamSetting");
+
+	AMinigameSettingsMachine_C_GetTeamSetting_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateGameSettings
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::UpdateGameSettings()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateGameSettings");
+
+	AMinigameSettingsMachine_C_UpdateGameSettings_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdatePlayerPersistence
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::UpdatePlayerPersistence()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdatePlayerPersistence");
+
+	AMinigameSettingsMachine_C_UpdatePlayerPersistence_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateClassSettings
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::UpdateClassSettings()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateClassSettings");
+
+	AMinigameSettingsMachine_C_UpdateClassSettings_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.GetUIExtensions
+// (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
+// Parameters:
+// struct FGameplayTagContainer   Return_Value                   (Parm, OutParm)
+
+void AMinigameSettingsMachine_C::GetUIExtensions(struct FGameplayTagContainer* Return_Value)
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.GetUIExtensions");
+
+	AMinigameSettingsMachine_C_GetUIExtensions_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	if (Return_Value != nullptr)
+		*Return_Value = params.Return_Value;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.Game Mode Preset Upgrade Path
+// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::Game_Mode_Preset_Upgrade_Path()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.Game Mode Preset Upgrade Path");
+
+	AMinigameSettingsMachine_C_Game_Mode_Preset_Upgrade_Path_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.GetScoreboardStatsArray
+// (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
+// Parameters:
+// TArray<class UFortMinigameStatFilter*> ScoreboardStats                (Parm, OutParm)
+
+void AMinigameSettingsMachine_C::GetScoreboardStatsArray(TArray<class UFortMinigameStatFilter*>* ScoreboardStats)
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.GetScoreboardStatsArray");
+
+	AMinigameSettingsMachine_C_GetScoreboardStatsArray_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	if (ScoreboardStats != nullptr)
+		*ScoreboardStats = params.ScoreboardStats;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.FillTrackedStats
+// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::FillTrackedStats()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.FillTrackedStats");
+
+	AMinigameSettingsMachine_C_FillTrackedStats_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.TryAddEndCondition_DestroyObjects
+// (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// TArray<struct FFortMinigameStatQuery> EndConditions                  (BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm)
+// bool                           bResult                        (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+
+void AMinigameSettingsMachine_C::TryAddEndCondition_DestroyObjects(TArray<struct FFortMinigameStatQuery>* EndConditions, bool* bResult)
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.TryAddEndCondition_DestroyObjects");
+
+	AMinigameSettingsMachine_C_TryAddEndCondition_DestroyObjects_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	if (EndConditions != nullptr)
+		*EndConditions = params.EndConditions;
+	if (bResult != nullptr)
+		*bResult = params.bResult;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateTotalRounds
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::UpdateTotalRounds()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateTotalRounds");
+
+	AMinigameSettingsMachine_C_UpdateTotalRounds_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateMinigameMutators
+// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::UpdateMinigameMutators()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateMinigameMutators");
+
+	AMinigameSettingsMachine_C_UpdateMinigameMutators_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateJoinInProgress
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::UpdateJoinInProgress()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateJoinInProgress");
+
+	AMinigameSettingsMachine_C_UpdateJoinInProgress_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.TryAddEndCondition_CollectItems
+// (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// TArray<struct FFortMinigameStatQuery> EndConditions                  (BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm)
+// bool                           bResult                        (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+
+void AMinigameSettingsMachine_C::TryAddEndCondition_CollectItems(TArray<struct FFortMinigameStatQuery>* EndConditions, bool* bResult)
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.TryAddEndCondition_CollectItems");
+
+	AMinigameSettingsMachine_C_TryAddEndCondition_CollectItems_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	if (EndConditions != nullptr)
+		*EndConditions = params.EndConditions;
+	if (bResult != nullptr)
+		*bResult = params.bResult;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateAutoStart
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::UpdateAutoStart()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateAutoStart");
+
+	AMinigameSettingsMachine_C_UpdateAutoStart_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateEndConditions
+// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::UpdateEndConditions()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateEndConditions");
+
+	AMinigameSettingsMachine_C_UpdateEndConditions_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateTeamToMoveToWhenOutOfSpawns
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::UpdateTeamToMoveToWhenOutOfSpawns()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateTeamToMoveToWhenOutOfSpawns");
+
+	AMinigameSettingsMachine_C_UpdateTeamToMoveToWhenOutOfSpawns_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateAutoEndTeamThreshold
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::UpdateAutoEndTeamThreshold()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateAutoEndTeamThreshold");
+
+	AMinigameSettingsMachine_C_UpdateAutoEndTeamThreshold_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdatePlayerLives
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::UpdatePlayerLives()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdatePlayerLives");
+
+	AMinigameSettingsMachine_C_UpdatePlayerLives_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdatePostGameSpawnLocationSetting
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::UpdatePostGameSpawnLocationSetting()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdatePostGameSpawnLocationSetting");
+
+	AMinigameSettingsMachine_C_UpdatePostGameSpawnLocationSetting_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.BlueprintGetFailedInteractionString
+// (HasOutParms, BlueprintCallable, BlueprintEvent, Const)
+// Parameters:
+// class AFortPawn*               InteractingPawn                (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// TEnumAsByte<EInteractionBeingAttempted> InteractionBeingAttempted      (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// struct FText                   ReturnValue                    (Parm, OutParm, ReturnParm)
+
+struct FText AMinigameSettingsMachine_C::BlueprintGetFailedInteractionString(class AFortPawn* InteractingPawn, TEnumAsByte<EInteractionBeingAttempted> InteractionBeingAttempted)
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.BlueprintGetFailedInteractionString");
+
+	AMinigameSettingsMachine_C_BlueprintGetFailedInteractionString_Params params;
+	params.InteractingPawn = InteractingPawn;
+	params.InteractionBeingAttempted = InteractionBeingAttempted;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateTeamSetting
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::UpdateTeamSetting()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateTeamSetting");
+
+	AMinigameSettingsMachine_C_UpdateTeamSetting_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateSpawnLocationSetting
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::UpdateSpawnLocationSetting()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateSpawnLocationSetting");
+
+	AMinigameSettingsMachine_C_UpdateSpawnLocationSetting_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.GetCurrentMinigame
+// (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
+// Parameters:
+// class AFortMinigame*           Minigame                       (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+
+void AMinigameSettingsMachine_C::GetCurrentMinigame(class AFortMinigame** Minigame)
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.GetCurrentMinigame");
+
+	AMinigameSettingsMachine_C_GetCurrentMinigame_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	if (Minigame != nullptr)
+		*Minigame = params.Minigame;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateTimeLimit
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::UpdateTimeLimit()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateTimeLimit");
+
+	AMinigameSettingsMachine_C_UpdateTimeLimit_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateGameMode
+// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::UpdateGameMode()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.UpdateGameMode");
+
+	AMinigameSettingsMachine_C_UpdateGameMode_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.HasMinigameStarted
+// (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
+// Parameters:
+// bool                           bHasStarted                    (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+
+void AMinigameSettingsMachine_C::HasMinigameStarted(bool* bHasStarted)
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.HasMinigameStarted");
+
+	AMinigameSettingsMachine_C_HasMinigameStarted_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	if (bHasStarted != nullptr)
+		*bHasStarted = params.bHasStarted;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.GetPickupSpawnLocation
+// (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
+// Parameters:
+// struct FVector                 SpawnLocation                  (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+
+void AMinigameSettingsMachine_C::GetPickupSpawnLocation(struct FVector* SpawnLocation)
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.GetPickupSpawnLocation");
+
+	AMinigameSettingsMachine_C_GetPickupSpawnLocation_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	if (SpawnLocation != nullptr)
+		*SpawnLocation = params.SpawnLocation;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.BlueprintGetInteractionString
+// (HasOutParms, BlueprintCallable, BlueprintEvent, Const)
+// Parameters:
+// class AFortPawn*               InteractingPawn                (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// TEnumAsByte<EInteractionBeingAttempted> InteractionBeingAttempted      (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// struct FText                   ReturnValue                    (Parm, OutParm, ReturnParm)
+
+struct FText AMinigameSettingsMachine_C::BlueprintGetInteractionString(class AFortPawn* InteractingPawn, TEnumAsByte<EInteractionBeingAttempted> InteractionBeingAttempted)
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.BlueprintGetInteractionString");
+
+	AMinigameSettingsMachine_C_BlueprintGetInteractionString_Params params;
+	params.InteractingPawn = InteractingPawn;
+	params.InteractionBeingAttempted = InteractionBeingAttempted;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.BlueprintCanInteract
+// (HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
+// Parameters:
+// class AFortPawn*               InteractingPawn                (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// TEnumAsByte<EInteractionBeingAttempted> InteractionBeingAttempted      (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// TEnumAsByte<ETInteractionType> InteractionType                (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// bool                           ReturnValue                    (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
+
+bool AMinigameSettingsMachine_C::BlueprintCanInteract(class AFortPawn* InteractingPawn, TEnumAsByte<EInteractionBeingAttempted> InteractionBeingAttempted, TEnumAsByte<ETInteractionType> InteractionType)
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.BlueprintCanInteract");
+
+	AMinigameSettingsMachine_C_BlueprintCanInteract_Params params;
+	params.InteractingPawn = InteractingPawn;
+	params.InteractionBeingAttempted = InteractionBeingAttempted;
+	params.InteractionType = InteractionType;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.ReceiveBeginPlay
+// (Event, Protected, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::ReceiveBeginPlay()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.ReceiveBeginPlay");
+
+	AMinigameSettingsMachine_C_ReceiveBeginPlay_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.OnGameSettingsUpdated
+// (BlueprintCallable, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::OnGameSettingsUpdated()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.OnGameSettingsUpdated");
+
+	AMinigameSettingsMachine_C_OnGameSettingsUpdated_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.StartMinigameHelper
+// (BlueprintCallable, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::StartMinigameHelper()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.StartMinigameHelper");
+
+	AMinigameSettingsMachine_C_StartMinigameHelper_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.AbandonMinigameHelper
+// (BlueprintCallable, BlueprintEvent)
+
+void AMinigameSettingsMachine_C::AbandonMinigameHelper()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.AbandonMinigameHelper");
+
+	AMinigameSettingsMachine_C_AbandonMinigameHelper_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function MinigameSettingsMachine.MinigameSettingsMachine_C.ExecuteUbergraph_MinigameSettingsMachine
+// (Final, HasDefaults)
+// Parameters:
+// int                            EntryPoint                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void AMinigameSettingsMachine_C::ExecuteUbergraph_MinigameSettingsMachine(int EntryPoint)
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function MinigameSettingsMachine.MinigameSettingsMachine_C.ExecuteUbergraph_MinigameSettingsMachine");
+
+	AMinigameSettingsMachine_C_ExecuteUbergraph_MinigameSettingsMachine_Params params;
+	params.EntryPoint = EntryPoint;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

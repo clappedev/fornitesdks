@@ -1,0 +1,191 @@
+// Fortnite (14.30) SDK
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+#include "../SDK.hpp"
+
+namespace SDK
+{
+//---------------------------------------------------------------------------
+//Functions
+//---------------------------------------------------------------------------
+
+// Function ItemCardWidget.ItemCardWidget_C.OnFocusReceived
+// (BlueprintCosmetic, Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// struct FGeometry               MyGeometry                     (BlueprintVisible, BlueprintReadOnly, Parm, IsPlainOldData)
+// struct FFocusEvent             InFocusEvent                   (BlueprintVisible, BlueprintReadOnly, Parm)
+// struct FEventReply             ReturnValue                    (Parm, OutParm, ReturnParm)
+
+struct FEventReply UItemCardWidget_C::OnFocusReceived(const struct FGeometry& MyGeometry, const struct FFocusEvent& InFocusEvent)
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function ItemCardWidget.ItemCardWidget_C.OnFocusReceived");
+
+	UItemCardWidget_C_OnFocusReceived_Params params;
+	params.MyGeometry = MyGeometry;
+	params.InFocusEvent = InFocusEvent;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
+// Function ItemCardWidget.ItemCardWidget_C.OnCentered
+// (BlueprintCallable, BlueprintEvent)
+
+void UItemCardWidget_C::OnCentered()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function ItemCardWidget.ItemCardWidget_C.OnCentered");
+
+	UItemCardWidget_C_OnCentered_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function ItemCardWidget.ItemCardWidget_C.PlayShow
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// int                            idx                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void UItemCardWidget_C::PlayShow(int idx)
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function ItemCardWidget.ItemCardWidget_C.PlayShow");
+
+	UItemCardWidget_C_PlayShow_Params params;
+	params.idx = idx;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function ItemCardWidget.ItemCardWidget_C.OnFocusLost
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+// Parameters:
+// struct FFocusEvent             InFocusEvent                   (BlueprintVisible, BlueprintReadOnly, Parm)
+
+void UItemCardWidget_C::OnFocusLost(const struct FFocusEvent& InFocusEvent)
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function ItemCardWidget.ItemCardWidget_C.OnFocusLost");
+
+	UItemCardWidget_C_OnFocusLost_Params params;
+	params.InFocusEvent = InFocusEvent;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function ItemCardWidget.ItemCardWidget_C.BP_OnHovered
+// (Event, Protected, BlueprintEvent)
+
+void UItemCardWidget_C::BP_OnHovered()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function ItemCardWidget.ItemCardWidget_C.BP_OnHovered");
+
+	UItemCardWidget_C_BP_OnHovered_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function ItemCardWidget.ItemCardWidget_C.Construct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+
+void UItemCardWidget_C::Construct()
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function ItemCardWidget.ItemCardWidget_C.Construct");
+
+	UItemCardWidget_C_Construct_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function ItemCardWidget.ItemCardWidget_C.ExecuteUbergraph_ItemCardWidget
+// (Final, HasDefaults)
+// Parameters:
+// int                            EntryPoint                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void UItemCardWidget_C::ExecuteUbergraph_ItemCardWidget(int EntryPoint)
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function ItemCardWidget.ItemCardWidget_C.ExecuteUbergraph_ItemCardWidget");
+
+	UItemCardWidget_C_ExecuteUbergraph_ItemCardWidget_Params params;
+	params.EntryPoint = EntryPoint;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function ItemCardWidget.ItemCardWidget_C.OnHoveredEvent__DelegateSignature
+// (Public, Delegate, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// struct FFortReceivedItemLootInfo NewParam                       (BlueprintVisible, BlueprintReadOnly, Parm)
+
+void UItemCardWidget_C::OnHoveredEvent__DelegateSignature(const struct FFortReceivedItemLootInfo& NewParam)
+{
+	static UFunction* fn = NULL;
+	if(!fn)
+		fn = UObject::FindObject<UFunction>("Function ItemCardWidget.ItemCardWidget_C.OnHoveredEvent__DelegateSignature");
+
+	UItemCardWidget_C_OnHoveredEvent__DelegateSignature_Params params;
+	params.NewParam = NewParam;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

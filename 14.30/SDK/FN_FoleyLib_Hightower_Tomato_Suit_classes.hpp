@@ -1,0 +1,37 @@
+#pragma once
+
+// Fortnite (14.30) SDK
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+namespace SDK
+{
+//---------------------------------------------------------------------------
+//Classes
+//---------------------------------------------------------------------------
+
+// BlueprintGeneratedClass FoleyLib_Hightower_Tomato_Suit.FoleyLib_Hightower_Tomato_Suit_C
+// 0x0000 (0x00B0 - 0x00B0)
+class UFoleyLib_Hightower_Tomato_Suit_C : public UFoleyLib_Character_Base_C
+{
+public:
+
+	static UClass* StaticClass()
+	{
+		static UClass* ptr;
+		if(!ptr)
+			ptr = UObject::FindClass("BlueprintGeneratedClass FoleyLib_Hightower_Tomato_Suit.FoleyLib_Hightower_Tomato_Suit_C");
+		
+		return ptr;
+	}
+
+};
+
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

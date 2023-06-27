@@ -1,0 +1,37 @@
+#pragma once
+
+// Fortnite (14.30) SDK
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+namespace SDK
+{
+//---------------------------------------------------------------------------
+//Classes
+//---------------------------------------------------------------------------
+
+// BlueprintGeneratedClass Phoebe_EvasiveManauvers.Phoebe_EvasiveManauvers_C
+// 0x0000 (0x00E0 - 0x00E0)
+class UPhoebe_EvasiveManauvers_C : public UFortAthenaAIBotEvaluator_EvasiveManeuvers
+{
+public:
+
+	static UClass* StaticClass()
+	{
+		static UClass* ptr;
+		if(!ptr)
+			ptr = UObject::FindClass("BlueprintGeneratedClass Phoebe_EvasiveManauvers.Phoebe_EvasiveManauvers_C");
+		
+		return ptr;
+	}
+
+};
+
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif
