@@ -1,0 +1,31 @@
+#pragma once
+
+// Dumped with Dumper-7!
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x08)
+#endif
+
+namespace SDK
+{
+// 0x10 (0x258 - 0x248)
+// WidgetBlueprintGeneratedClass MapAndBackpackKeys.MapAndBackpackKeys_C
+class UMapAndBackpackKeys_C : public UFortHUDElementWidget
+{
+public:
+	class UImage*                                Backpack;                                          // 0x248(0x8)(BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
+	class UImage*                                Map;                                               // 0x250(0x8)(BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
+
+	static class UClass* StaticClass()
+	{
+		static class UClass* Clss = UObject::FindClassFast("MapAndBackpackKeys_C");
+		return Clss;
+	}
+
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

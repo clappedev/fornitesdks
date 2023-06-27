@@ -1,0 +1,84 @@
+#pragma once
+
+// Dumped with Dumper-7!
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x08)
+#endif
+
+#include "../SDK.hpp"
+
+namespace SDK
+{
+
+// Function SK_Weapon_Flotation_Balloon_Skeleton_AnimBP.SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_AnimGraphNode_SpringBone_A2B0CFAC4A512F3CE1A066B8890AFC5B
+// (BlueprintEvent)
+// Parameters:
+
+void USK_Weapon_Flotation_Balloon_Skeleton_AnimBP_C::EvaluateGraphExposedInputs_ExecuteUbergraph_SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_AnimGraphNode_SpringBone_A2B0CFAC4A512F3CE1A066B8890AFC5B()
+{
+	static auto Func = Class->GetFunction("SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_C", "EvaluateGraphExposedInputs_ExecuteUbergraph_SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_AnimGraphNode_SpringBone_A2B0CFAC4A512F3CE1A066B8890AFC5B");
+
+	Params::USK_Weapon_Flotation_Balloon_Skeleton_AnimBP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_AnimGraphNode_SpringBone_A2B0CFAC4A512F3CE1A066B8890AFC5B_Params Parms;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+// Function SK_Weapon_Flotation_Balloon_Skeleton_AnimBP.SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_AnimGraphNode_ModifyBone_3B803E214CCD9CFCB5B5D09DB5A8B420
+// (BlueprintEvent)
+// Parameters:
+
+void USK_Weapon_Flotation_Balloon_Skeleton_AnimBP_C::EvaluateGraphExposedInputs_ExecuteUbergraph_SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_AnimGraphNode_ModifyBone_3B803E214CCD9CFCB5B5D09DB5A8B420()
+{
+	static auto Func = Class->GetFunction("SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_C", "EvaluateGraphExposedInputs_ExecuteUbergraph_SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_AnimGraphNode_ModifyBone_3B803E214CCD9CFCB5B5D09DB5A8B420");
+
+	Params::USK_Weapon_Flotation_Balloon_Skeleton_AnimBP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_AnimGraphNode_ModifyBone_3B803E214CCD9CFCB5B5D09DB5A8B420_Params Parms;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+// Function SK_Weapon_Flotation_Balloon_Skeleton_AnimBP.SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_AnimGraphNode_LookAt_7B57FE4C487DC6F9E32018A7A0DBA84B
+// (BlueprintEvent)
+// Parameters:
+
+void USK_Weapon_Flotation_Balloon_Skeleton_AnimBP_C::EvaluateGraphExposedInputs_ExecuteUbergraph_SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_AnimGraphNode_LookAt_7B57FE4C487DC6F9E32018A7A0DBA84B()
+{
+	static auto Func = Class->GetFunction("SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_C", "EvaluateGraphExposedInputs_ExecuteUbergraph_SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_AnimGraphNode_LookAt_7B57FE4C487DC6F9E32018A7A0DBA84B");
+
+	Params::USK_Weapon_Flotation_Balloon_Skeleton_AnimBP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_AnimGraphNode_LookAt_7B57FE4C487DC6F9E32018A7A0DBA84B_Params Parms;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+// Function SK_Weapon_Flotation_Balloon_Skeleton_AnimBP.SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_AnimGraphNode_Trail_4DD306434D40186579746DBD80665345
+// (BlueprintEvent)
+// Parameters:
+
+void USK_Weapon_Flotation_Balloon_Skeleton_AnimBP_C::EvaluateGraphExposedInputs_ExecuteUbergraph_SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_AnimGraphNode_Trail_4DD306434D40186579746DBD80665345()
+{
+	static auto Func = Class->GetFunction("SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_C", "EvaluateGraphExposedInputs_ExecuteUbergraph_SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_AnimGraphNode_Trail_4DD306434D40186579746DBD80665345");
+
+	Params::USK_Weapon_Flotation_Balloon_Skeleton_AnimBP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_AnimGraphNode_Trail_4DD306434D40186579746DBD80665345_Params Parms;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+// Function SK_Weapon_Flotation_Balloon_Skeleton_AnimBP.SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_C.ExecuteUbergraph_SK_Weapon_Flotation_Balloon_Skeleton_AnimBP
+// ()
+// Parameters:
+// int32                              EntryPoint                                                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void USK_Weapon_Flotation_Balloon_Skeleton_AnimBP_C::ExecuteUbergraph_SK_Weapon_Flotation_Balloon_Skeleton_AnimBP(int32 EntryPoint)
+{
+	static auto Func = Class->GetFunction("SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_C", "ExecuteUbergraph_SK_Weapon_Flotation_Balloon_Skeleton_AnimBP");
+
+	Params::USK_Weapon_Flotation_Balloon_Skeleton_AnimBP_C_ExecuteUbergraph_SK_Weapon_Flotation_Balloon_Skeleton_AnimBP_Params Parms;
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

@@ -1,0 +1,66 @@
+#pragma once
+
+// Dumped with Dumper-7!
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x08)
+#endif
+
+namespace SDK
+{
+// 0x196 (0xB48 - 0x9B2)
+// BlueprintGeneratedClass GA_AirStrike.GA_AirStrike_C
+class UGA_AirStrike_C : public UGAT_GenericActiveAbilityNoCommit_C
+{
+public:
+	uint8                                        Pad_5966[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	struct FPointerToUberGraphFrame              UberGraphFrame;                                    // 0x9B8(0x8)(Transient, DuplicateTransient)
+	struct FGameplayTag                          EventComplete;                                     // 0x9C0(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
+	struct FGameplayTag                          EventActivation;                                   // 0x9C8(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
+	class AFortAbilityDecoTool*                  DecoTool;                                          // 0x9D0(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class UClass*                                Prj_Bomb;                                          // 0x9D8(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FRotator                              Prj_SpawnDirection;                                // 0x9E0(0xC)(Edit, BlueprintVisible, DisableEditOnInstance, IsPlainOldData, NoDestructor)
+	float                                        Prj_Gravity;                                       // 0x9EC(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                        DelayBetweenBombs;                                 // 0x9F0(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                        HeightToSpawnBombs;                                // 0x9F4(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                        ExplosionRadius;                                   // 0x9F8(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                        Pad_5967[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	struct FTransform                            BombInitTransform;                                 // 0xA00(0x30)(Edit, BlueprintVisible, DisableEditOnInstance, IsPlainOldData, NoDestructor)
+	int32                                        AbilityMultiplier;                                 // 0xA30(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                        Pad_5968[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	struct FGameplayTag                          EC_Explode;                                        // 0xA38(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
+	struct FFortGameplayEffectContainerSpec      EC_ExplodeReturn;                                  // 0xA40(0x80)(Edit, BlueprintVisible, DisableEditOnInstance)
+	TArray<struct FVector>                       CurrentUnprocessedPositionsArray;                  // 0xAC0(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance)
+	int32                                        ForLoopCounter;                                    // 0xAD0(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         Debug;                                             // 0xAD4(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor)
+	uint8                                        Pad_5969[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	struct FGameplayTagContainer                 TC_BombCountUpgrade_01;                            // 0xAD8(0x20)(Edit, BlueprintVisible, DisableEditOnInstance)
+	struct FGameplayTagContainer                 TC_BombCountUpgrade_02;                            // 0xAF8(0x20)(Edit, BlueprintVisible, DisableEditOnInstance)
+	struct FGameplayTagContainer                 TC_BombCountUpgrade_03;                            // 0xB18(0x20)(Edit, BlueprintVisible, DisableEditOnInstance)
+	int32                                        BaseBombCount;                                     // 0xB38(0x4)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                        Pad_596A[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	class UAnimMontage*                          ActivateMontage;                                   // 0xB40(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+	static class UClass* StaticClass()
+	{
+		static class UClass* Clss = UObject::FindClassFast("GA_AirStrike_C");
+		return Clss;
+	}
+
+	void SetupAbility(class UAbilitySystemComponent* AbilitySystemComponent, int32 CallFunc_Add_IntInt_ReturnValue, int32 CallFunc_Add_IntInt_ReturnValue1, int32 CallFunc_Add_IntInt_ReturnValue2, UInterfaceProperty_ CallFunc_HasAllMatchingGameplayTags_TagContainerInterface_CastInput, bool CallFunc_HasAllMatchingGameplayTags_ReturnValue, UInterfaceProperty_ CallFunc_HasAllMatchingGameplayTags_TagContainerInterface1_CastInput, bool CallFunc_HasAllMatchingGameplayTags_ReturnValue1, UInterfaceProperty_ CallFunc_HasAllMatchingGameplayTags_TagContainerInterface2_CastInput, bool CallFunc_HasAllMatchingGameplayTags_ReturnValue2);
+	struct FTransform GetCustomAbilitySourceTransform();
+	void GetAttributeValue(class UAbilitySystemComponent* CallFunc_GetAbilitySystemComponent_ReturnValue, class UFortAbilitySystemComponent* K2Node_DynamicCast_AsFort_Ability_System_Component, bool K2Node_DynamicCast_bSuccess, const struct FAttributeInfo& CallFunc_FindAttributeInformation_ReturnValue, bool CallFunc_IsValid_ReturnValue, float CallFunc_GetAttributeMagnitude_ReturnValue, int32 CallFunc_FFloor_ReturnValue);
+	void Completed_48B4C8FD48399FA7A5F50D96227846DD(struct FGameplayAbilityTargetDataHandle& TargetData, const struct FGameplayTag& ApplicationTag);
+	void Cancelled_48B4C8FD48399FA7A5F50D96227846DD(struct FGameplayAbilityTargetDataHandle& TargetData, const struct FGameplayTag& ApplicationTag);
+	void Triggered_48B4C8FD48399FA7A5F50D96227846DD(struct FGameplayAbilityTargetDataHandle& TargetData, const struct FGameplayTag& ApplicationTag);
+	void DidNotSpawn_6C69A64746D8F71A616C83A25170911C(class AActor* SpawnedActor);
+	void Success_6C69A64746D8F71A616C83A25170911C(class AActor* SpawnedActor);
+	void K2_ActivateAbility();
+	void ExecuteUbergraph_GA_AirStrike(int32 EntryPoint, const struct FAbilityToolSpawnParameters& CallFunc_GetSpawnParameters_OutSpawnParamters, UDelegateProperty_ K2Node_CreateDelegate_OutputDelegate, const struct FGameplayAbilityTargetDataHandle& K2Node_CustomEvent_TargetData, const struct FGameplayTag& K2Node_CustomEvent_ApplicationTag, const struct FTransform& CallFunc_MakeTransform_ReturnValue, const struct FGameplayTag& Temp_struct_Variable, const struct FGameplayAbilityTargetDataHandle& Temp_struct_Variable1, UDelegateProperty_ K2Node_CreateDelegate_OutputDelegate1, class AActor* K2Node_CustomEvent_SpawnedActor1, class AActor* K2Node_CustomEvent_SpawnedActor, UDelegateProperty_ K2Node_CreateDelegate_OutputDelegate2, class AActor* Temp_object_Variable, class UAbilityTask_SpawnActor* CallFunc_SpawnActor_ReturnValue, class AActor* CallFunc_BeginSpawningActor_SpawnedActor, bool CallFunc_BeginSpawningActor_ReturnValue, bool CallFunc_IsValid_ReturnValue, class AB_AirStrike_Bomb_Spawner_C* K2Node_DynamicCast_AsB_Air_Strike_Bomb_Spawner, bool K2Node_DynamicCast_bSuccess, UDelegateProperty_ K2Node_CreateDelegate_OutputDelegate3, class AAbilityDecoTool_AirStrike_C* K2Node_DynamicCast_AsAbility_Deco_Tool_Air_Strike, bool K2Node_DynamicCast_bSuccess1, int32 Temp_int_Array_Index_Variable, const struct FGameplayAbilityTargetDataHandle& K2Node_CustomEvent_TargetData1, const struct FGameplayTag& K2Node_CustomEvent_ApplicationTag1, class UAbilitySystemComponent* CallFunc_GetAbilitySystemComponent_ReturnValue, class UFortAbilityTask_PlayMontageWaitTarget* CallFunc_PlayMontageWaitTarget_ReturnValue, bool CallFunc_IsValid_ReturnValue1, bool CallFunc_K2_CommitAbility_ReturnValue, bool CallFunc_Not_PreBool_ReturnValue, UDelegateProperty_ K2Node_CreateDelegate_OutputDelegate4, int32 CallFunc_Array_Length_ReturnValue, const struct FFortGameplayEffectContainerSpec& CallFunc_MakeGameplayEffectContainerSpec_ReturnValue, class AActor* CallFunc_GetAvatarActorFromActorInfo_ReturnValue, class AFortPawn* K2Node_DynamicCast_AsFort_Pawn, bool K2Node_DynamicCast_bSuccess2, class AFortAbilityDecoTool* K2Node_DynamicCast_AsFort_Ability_Deco_Tool, bool K2Node_DynamicCast_bSuccess3, const struct FGameplayAbilityTargetDataHandle& K2Node_CustomEvent_TargetData2, const struct FGameplayTag& K2Node_CustomEvent_ApplicationTag2, int32 Temp_int_Loop_Counter_Variable, bool CallFunc_Less_IntInt_ReturnValue, int32 CallFunc_Add_IntInt_ReturnValue);
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

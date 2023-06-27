@@ -1,0 +1,29 @@
+#pragma once
+
+// Dumped with Dumper-7!
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x08)
+#endif
+
+namespace SDK
+{
+// 0x0 (0x110 - 0x110)
+// BlueprintGeneratedClass BulletWhipTrackerComponent_WaterBalloon.BulletWhipTrackerComponent_WaterBalloon_C
+class UBulletWhipTrackerComponent_WaterBalloon_C : public UBulletWhipTrackerComponentBase
+{
+public:
+
+	static class UClass* StaticClass()
+	{
+		static class UClass* Clss = UObject::FindClassFast("BulletWhipTrackerComponent_WaterBalloon_C");
+		return Clss;
+	}
+
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

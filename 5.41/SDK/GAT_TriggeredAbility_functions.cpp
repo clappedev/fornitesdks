@@ -1,0 +1,91 @@
+#pragma once
+
+// Dumped with Dumper-7!
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x08)
+#endif
+
+#include "../SDK.hpp"
+
+namespace SDK
+{
+
+// Function GAT_TriggeredAbility.GAT_TriggeredAbility_C.SetHolsterWeaponWithName
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class AFortPawn*                   Target_Fort_Pawn                                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// bool                               ShouldHolster                                                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                               PlayEquipAnim                                                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// bool                               ShowDebugPrintName                                               (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// class UClass*                      CallFunc_GetObjectClass_ReturnValue                              (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class FString                      CallFunc_GetClassDisplayName_ReturnValue                         (ZeroConstructor, HasGetValueTypeHash)
+// class FName                        CallFunc_Conv_StringToName_ReturnValue                           (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UGAT_TriggeredAbility_C::SetHolsterWeaponWithName(class AFortPawn* Target_Fort_Pawn, bool ShouldHolster, bool PlayEquipAnim, bool ShowDebugPrintName, class UClass* CallFunc_GetObjectClass_ReturnValue, const class FString& CallFunc_GetClassDisplayName_ReturnValue, class FName CallFunc_Conv_StringToName_ReturnValue)
+{
+	static auto Func = Class->GetFunction("GAT_TriggeredAbility_C", "SetHolsterWeaponWithName");
+
+	Params::UGAT_TriggeredAbility_C_SetHolsterWeaponWithName_Params Parms;
+	Parms.Target_Fort_Pawn = Target_Fort_Pawn;
+	Parms.ShouldHolster = ShouldHolster;
+	Parms.PlayEquipAnim = PlayEquipAnim;
+	Parms.ShowDebugPrintName = ShowDebugPrintName;
+	Parms.CallFunc_GetObjectClass_ReturnValue = CallFunc_GetObjectClass_ReturnValue;
+	Parms.CallFunc_GetClassDisplayName_ReturnValue = CallFunc_GetClassDisplayName_ReturnValue;
+	Parms.CallFunc_Conv_StringToName_ReturnValue = CallFunc_Conv_StringToName_ReturnValue;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+// Function GAT_TriggeredAbility.GAT_TriggeredAbility_C.TriggeredAbilitySetup
+// (Public, BlueprintCallable, BlueprintEvent, Const)
+// Parameters:
+// class UAbilitySystemComponent*     Ability_System_Component                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UGAT_TriggeredAbility_C::TriggeredAbilitySetup(class UAbilitySystemComponent* Ability_System_Component)
+{
+	static auto Func = Class->GetFunction("GAT_TriggeredAbility_C", "TriggeredAbilitySetup");
+
+	Params::UGAT_TriggeredAbility_C_TriggeredAbilitySetup_Params Parms;
+	Parms.Ability_System_Component = Ability_System_Component;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+// Function GAT_TriggeredAbility.GAT_TriggeredAbility_C.K2_ActivateAbilityFromEvent
+// (Event, Protected, HasOutParams, BlueprintEvent)
+// Parameters:
+// struct FGameplayEventData          EventData                                                        (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm)
+
+void UGAT_TriggeredAbility_C::K2_ActivateAbilityFromEvent(struct FGameplayEventData& EventData)
+{
+	static auto Func = Class->GetFunction("GAT_TriggeredAbility_C", "K2_ActivateAbilityFromEvent");
+
+	Params::UGAT_TriggeredAbility_C_K2_ActivateAbilityFromEvent_Params Parms;
+	Parms.EventData = EventData;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+// Function GAT_TriggeredAbility.GAT_TriggeredAbility_C.ExecuteUbergraph_GAT_TriggeredAbility
+// (HasDefaults)
+// Parameters:
+// int32                              EntryPoint                                                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// struct FGameplayEventData          K2Node_Event_EventData                                           (ConstParm)
+
+void UGAT_TriggeredAbility_C::ExecuteUbergraph_GAT_TriggeredAbility(int32 EntryPoint, const struct FGameplayEventData& K2Node_Event_EventData)
+{
+	static auto Func = Class->GetFunction("GAT_TriggeredAbility_C", "ExecuteUbergraph_GAT_TriggeredAbility");
+
+	Params::UGAT_TriggeredAbility_C_ExecuteUbergraph_GAT_TriggeredAbility_Params Parms;
+	Parms.EntryPoint = EntryPoint;
+	Parms.K2Node_Event_EventData = K2Node_Event_EventData;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

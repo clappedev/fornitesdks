@@ -1,0 +1,29 @@
+#pragma once
+
+// Dumped with Dumper-7!
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x08)
+#endif
+
+namespace SDK
+{
+// 0x0 (0x974 - 0x974)
+// BlueprintGeneratedClass B_Prj_Hook_Athena_Slide.B_Prj_Hook_Athena_Slide_C
+class AB_Prj_Hook_Athena_Slide_C : public AB_Prj_Hook_Athena_C
+{
+public:
+
+	static class UClass* StaticClass()
+	{
+		static class UClass* Clss = UObject::FindClassFast("B_Prj_Hook_Athena_Slide_C");
+		return Clss;
+	}
+
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

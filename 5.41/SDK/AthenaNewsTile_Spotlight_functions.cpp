@@ -1,0 +1,58 @@
+#pragma once
+
+// Dumped with Dumper-7!
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x08)
+#endif
+
+#include "../SDK.hpp"
+
+namespace SDK
+{
+
+// Function AthenaNewsTile_Spotlight.AthenaNewsTile_Spotlight_C.PlayIntroAnim
+// (Event, Public, BlueprintEvent)
+// Parameters:
+
+void UAthenaNewsTile_Spotlight_C::PlayIntroAnim()
+{
+	static auto Func = Class->GetFunction("AthenaNewsTile_Spotlight_C", "PlayIntroAnim");
+
+	Params::UAthenaNewsTile_Spotlight_C_PlayIntroAnim_Params Parms;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+// Function AthenaNewsTile_Spotlight.AthenaNewsTile_Spotlight_C.SetDefaultImage
+// (Event, Public, BlueprintEvent)
+// Parameters:
+
+void UAthenaNewsTile_Spotlight_C::SetDefaultImage()
+{
+	static auto Func = Class->GetFunction("AthenaNewsTile_Spotlight_C", "SetDefaultImage");
+
+	Params::UAthenaNewsTile_Spotlight_C_SetDefaultImage_Params Parms;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+// Function AthenaNewsTile_Spotlight.AthenaNewsTile_Spotlight_C.ExecuteUbergraph_AthenaNewsTile_Spotlight
+// ()
+// Parameters:
+// int32                              EntryPoint                                                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UAthenaNewsTile_Spotlight_C::ExecuteUbergraph_AthenaNewsTile_Spotlight(int32 EntryPoint)
+{
+	static auto Func = Class->GetFunction("AthenaNewsTile_Spotlight_C", "ExecuteUbergraph_AthenaNewsTile_Spotlight");
+
+	Params::UAthenaNewsTile_Spotlight_C_ExecuteUbergraph_AthenaNewsTile_Spotlight_Params Parms;
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

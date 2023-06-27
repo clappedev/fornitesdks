@@ -1,0 +1,42 @@
+#pragma once
+
+// Dumped with Dumper-7!
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x08)
+#endif
+
+namespace SDK
+{
+// 0x30 (0x258 - 0x228)
+// WidgetBlueprintGeneratedClass Announcement_Basic.Announcement_Basic_C
+class UAnnouncement_Basic_C : public UFortAnnouncementWidget
+{
+public:
+	struct FPointerToUberGraphFrame              UberGraphFrame;                                    // 0x228(0x8)(Transient, DuplicateTransient)
+	class UHorizontalBox*                        HorizontalBoxRoot;                                 // 0x230(0x8)(BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
+	class UImage*                                Icon;                                              // 0x238(0x8)(BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
+	class UFortRichTextBlock*                    TextDetailText;                                    // 0x240(0x8)(BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
+	class UCommonTextBlock*                      TextTitleText;                                     // 0x248(0x8)(BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
+	class AFortClientAnnouncement_Basic*         Announcement;                                      // 0x250(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+	static class UClass* StaticClass()
+	{
+		static class UClass* Clss = UObject::FindClassFast("Announcement_Basic_C");
+		return Clss;
+	}
+
+	void SetBodyText(bool Temp_bool_Variable, bool CallFunc_IsValid_ReturnValue, bool CallFunc_TextIsEmpty_ReturnValue, class UCommonInputSubsystem* CallFunc_GetContext_ReturnValue, bool CallFunc_Not_PreBool_ReturnValue, enum class ECommonInputType CallFunc_GetCurrentInputType_ReturnValue, bool CallFunc_EqualEqual_ByteByte_ReturnValue, bool CallFunc_BooleanAND_ReturnValue, class FText K2Node_Select_Default);
+	void UpdateWidgetData(class AFortClientAnnouncement* Announcement);
+	void Construct();
+	void AnnouncementStopped(class AFortClientAnnouncement* Announcement);
+	void OnInputMethodChanged(enum class ECommonInputType bNewInputType);
+	void Destruct();
+	void ExecuteUbergraph_Announcement_Basic(int32 EntryPoint, UDelegateProperty_ K2Node_CreateDelegate_OutputDelegate, enum class ESlateVisibility Temp_byte_Variable, class UCommonInputSubsystem* CallFunc_GetContext_ReturnValue, class AFortClientAnnouncement* K2Node_Event_Announcement1, class AFortClientAnnouncement_Basic* K2Node_DynamicCast_AsFort_Client_Announcement_Basic, bool K2Node_DynamicCast_bSuccess, enum class ESlateVisibility Temp_byte_Variable1, bool CallFunc_Greater_FloatFloat_ReturnValue, bool CallFunc_TextIsEmpty_ReturnValue, bool CallFunc_TextIsEmpty_ReturnValue1, bool CallFunc_TextIsEmpty_ReturnValue2, bool CallFunc_BooleanAND_ReturnValue, class UObject* CallFunc_GetBrushResource_ReturnValue, bool CallFunc_IsValid_ReturnValue, bool Temp_bool_Variable, class AFortClientAnnouncement* K2Node_Event_Announcement, enum class ESlateVisibility K2Node_Select_Default, enum class ESlateVisibility Temp_byte_Variable2, enum class ESlateVisibility Temp_byte_Variable3, enum class ECommonInputType K2Node_CustomEvent_bNewInputType, bool Temp_bool_Variable1, enum class ESlateVisibility K2Node_Select1_Default);
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif
