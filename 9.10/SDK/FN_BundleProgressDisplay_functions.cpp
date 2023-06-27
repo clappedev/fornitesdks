@@ -1,0 +1,60 @@
+// Fortnite (9.1) SDK
+// Dumped with <3 by android#1337
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+#include "../SDK.hpp"
+
+namespace SDK
+{
+//---------------------------------------------------------------------------
+//Functions
+//---------------------------------------------------------------------------
+
+// Function BundleProgressDisplay.BundleProgressDisplay_C.PreConstruct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+// Parameters:
+// bool                           IsDesignTime                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void UBundleProgressDisplay_C::PreConstruct(bool IsDesignTime)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BundleProgressDisplay.BundleProgressDisplay_C.PreConstruct");
+
+	UBundleProgressDisplay_C_PreConstruct_Params params;
+	params.IsDesignTime = IsDesignTime;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BundleProgressDisplay.BundleProgressDisplay_C.ExecuteUbergraph_BundleProgressDisplay
+// (Final)
+// Parameters:
+// int                            EntryPoint                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void UBundleProgressDisplay_C::ExecuteUbergraph_BundleProgressDisplay(int EntryPoint)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BundleProgressDisplay.BundleProgressDisplay_C.ExecuteUbergraph_BundleProgressDisplay");
+
+	UBundleProgressDisplay_C_ExecuteUbergraph_BundleProgressDisplay_Params params;
+	params.EntryPoint = EntryPoint;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif
